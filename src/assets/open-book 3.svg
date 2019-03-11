@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="520px" height="851px" viewBox="0 0 520 851" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>open-book 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="125.415991%" y1="-14.7189348%" x2="-14.804957%" y2="117.468741%" id="linearGradient-1">
+            <stop stop-color="#17B696" offset="0%"></stop>
+            <stop stop-color="#097BAD" offset="100%"></stop>
+        </linearGradient>
+        <path d="M42.9320982,33 C42.8996936,33 42.8632384,33 42.8308337,33 C31.4527543,33 20.7511217,36.8774716 12.6702145,43.9242007 C4.50019447,51.0488334 0,60.5353597 0,70.6344911 L0,634.957099 C0,655.651112 19.3334187,672.527851 43.1022226,672.580967 C143.305473,672.78989 311.185814,691.047647 427,797 L427,206.420358 C427,199.405499 424.950406,192.815568 421.082103,187.36232 C326.02714,53.5382055 143.362181,33.2053821 42.9320982,33 Z" id="path-2"></path>
+        <filter x="-13.0%" y="-5.4%" width="122.7%" height="112.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-7" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M91.5027462,5 C91.4744396,5 91.4425946,5 91.414288,5 C81.4751226,5 72.1268581,8.87747156 65.0678923,15.9242007 C57.9310832,23.0488334 54,32.5353597 54,42.6344911 L54,606.957099 C54,627.651112 70.888443,644.527851 91.651356,644.580967 C179.182532,644.78989 325.832105,663.047647 427,769 L427,178.420358 C427,171.405499 425.209606,164.815568 421.830502,159.36232 C338.796541,25.5382055 179.232069,5.20538206 91.5027462,5 Z" id="path-4"></path>
+        <filter x="-15.3%" y="-5.8%" width="127.9%" height="113.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-5" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.32385077 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M846,634.96064 L846,70.6344911 C846,60.5353597 841.657851,51.0488334 833.774759,43.9242007 C825.97765,36.8774716 815.644039,33 804.677279,33 C804.642104,33 804.606929,33 804.575662,33 C707.676558,33.2089231 531.426728,53.5417466 439.706155,187.365861 C435.973704,192.819109 434,199.40904 434,206.423899 L434,797 C545.746832,691.047647 707.731274,672.78989 804.415421,672.580967 C827.345564,672.527851 846,655.651112 846,634.96064 Z" id="path-6"></path>
+        <filter x="-11.4%" y="-5.8%" width="125.2%" height="113.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="5" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.357393569 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M805,601.96064 L805,37.6344911 C805,27.5353597 801.068879,18.0488334 793.932003,10.9242007 C786.87297,3.87747156 777.51754,0 767.588895,0 C767.55705,0 767.525205,0 767.496898,0 C679.770282,0.208923125 520.204295,20.5417466 437.166009,154.365861 C433.786873,159.819109 432,166.40904 432,173.423899 L432,764 C533.168855,658.047647 679.819819,639.78989 767.351825,639.580967 C788.111397,639.527851 805,622.651112 805,601.96064 Z" id="path-8"></path>
+        <filter x="-12.6%" y="-5.8%" width="127.9%" height="113.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="5" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.357393569 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="infiome" transform="translate(-920.000000, -95.000000)">
+            <g id="open-book-3" transform="translate(957.000000, 114.000000)">
+                <g id="open-book-2">
+                    <g id="open-book">
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
