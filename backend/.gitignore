@@ -1,0 +1,11 @@
+edu_app/__init__.pyc
+edu_app/admin.pyc
+edu_app/forms.pyc
+edu_app/models.pyc
+edu_app/serializers.pyc
+edu_app/urls.pyc
+edu_app/views.pyc
+Eduiome_Web/__init__.pyc
+Eduiome_Web/settings.pyc
+Eduiome_Web/urls.pyc
+Eduiome_Web/wsgi.pyc

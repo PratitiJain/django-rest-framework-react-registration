@@ -1,9 +1,43 @@
 import React,{Component} from 'react';
 import './Register.css';
 import Logo from '../../../assets/logobw.png';
+import axios from 'axios';
+import jQuery from 'jquery';
+
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+var csrftoken = getCookie('csrftoken');
+console.log(csrftoken);
+console.log("Hey prattu!");
+
 // import {Link} from 'react-router-dom';
 class Form extends Component{
+    state={
+        response :null
+    }
+    // componentDidMount= ()=>{
+    //     axios.put('http://localhost:8000/edu_app/api/users/2/',this.state.response).then(res =>
+    //         console.log(res.data)
+    //     )
+    //     // console.log("Mounted");
+    // }
     render(){
+       
         return(
             <div className="Register">
                 <img src={Logo} className="RegisterLogo"/>
@@ -17,15 +51,17 @@ class Form extends Component{
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div className="Form">
                             <div>
-                                <form action="https://api.formbucket.com/f/buk_yNzcmSIhLXKrDXoAHkxJ7DmC" method="post">
+                                <form action="http://localhost:8000/edu_app/api/users/" method="post">
                                     <h1 className="TutorTitle">Tutor - Registration</h1>
-                                    <input name="name" required="true" type="text" placeholder="Full Name" id="formInput"/>
+                                    <input type="hidden" name="csrfmiddlewaretoken" value={csrftoken} />
+                                    <input name="username" required="true" type="text" placeholder="Username" id="formInput"/>
+                                    <input name="first_name" required="true" type="text" placeholder="First Name" id="formInput"/>
+                                    <input name="last_name" required="true" type="text" placeholder="Last Name" id="formInput"/>
+                                    <input name="password1" required="true" type="password" placeholder="Password" id="formInput"/>
+                                    <input name="password2" required="true" type="password" placeholder="Confirm Password" id="formInput"/>
                                     <input name="email" required="true" type="text" placeholder="Email" id="formInput"/>
-                                    <input name="password" required="true" type="password" placeholder="Password" id="formInput"/>
-                                    <input name="confpassword" required="true" type="password" placeholder="Confirm Password" id="formInput"/>
-                                    <input name="contact" required="true" type="number" placeholder="Contact" id="formInput"/>
-                                    <input name="location" type="Location" placeholder="Location" id="formInput"/>
                                     <input name="subject" type="text" placeholder="Subject" id="formInput"/>
+                                    <input name="location" type="Location" placeholder="Location" id="formInput"/>
                                     <input type="submit" id="formSubmit" value="Submit"/>
                                 </form>
                             </div>
